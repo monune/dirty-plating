@@ -24,3 +24,5 @@
 - High chair
 - A useless concrete interior 🧱
 - Dirty decorations (**very very very...**)
+
+![Clean_Cup](https://github.com/monune/dirty-plating/assets/123826926/b2e44a65-ad3f-4211-9d39-dd4f01bcb7e3)
