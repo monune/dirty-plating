@@ -38,7 +38,7 @@ body {
     height: 180px;
     place-items: center;
     border-radius: 10px 10px 70px 85px;
-    background: url('../img/coffee.png') #ffefdc;
+    background: url('../img/coffee.png');
     background-repeat: repeat-x;
     background-position: 0 130px;
     animation: wave 4s linear infinite;
@@ -88,14 +88,24 @@ body {
     text-align: center;
 }
 
-.canv {
+.plating {
     position: absolute;
-    width: 1000px;
-    height: 700px;
+    border-radius: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
+    border: 1px solid transparent;
     background: transparent;
-    z-index: 10;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 0 0 20px;
+    width: 150px;
+    padding: 10px;
+    background: white;
+}
+button:active {
+    background: whitesmoke;
 }
