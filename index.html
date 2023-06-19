@@ -14,29 +14,28 @@
 
 <body onload="init()">
     <!-- top row -->
-    <div class="header">
-        <h1>Dirty Plating</h1>
-    </div>
 
     <!-- mid row -->
-    <div class="table">
-        <div class="cup">
-            <div class="cup-handle"></div>
-            <div class="latte">
-                <h2 class="title">Caffe Latte</h2>
+    <div class="container">
+        <div class="table">
+            <div class="cup">
+                <div class="cup-handle"></div>
+                <div class="latte">
+                    <h2 class="title">CAFÉ LATTE</h2>
+                </div>
             </div>
+            <div class="cup-shadow"></div>
         </div>
-        <div class="cup-shadow"></div>
+        <div class="play">
+            <canvas id="myCanvas" class="plating" width="800" height="550">
+            </canvas>
+        </div>
     </div>
-    <div class="play">
-        <canvas id="myCanvas" class="plating" width="650" height="500">
-        </canvas>
-    </div>
-
     <!-- btm-row  -->
     <div class="btm">
-        <button onclick="Cream()">Whipped Cream</button>
+        <button onclick="Cream()">Whipped Cream </button>
         <button onclick="Cocoa()">Cocoa Powder</button>
+        <button class="rst" onclick="Cancel()">초기화</button>
     </div>
 </body>
 

@@ -1,9 +1,6 @@
-.header {
-    top: 0;
-    text-align: center;
-    padding: 25px 0 25px 0;
+h2 {
+  user-select:none
 }
-
 @media (max-width: 800px) {
     .header {
         display: none;
@@ -26,6 +23,25 @@ body {
     background: #ffefdc;
 }
 
+.container {
+    position: relative;
+    top: 100px;
+    margin: 0 auto 0 auto;
+    width: 700px;
+    height: 500px;
+}
+
+.table {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    width: 229px;
+    margin-right: 10px;
+}
 
 .cup {
     position: absolute;
@@ -94,18 +110,38 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid transparent;
+    border: 1px solid black;
     background: transparent;
 }
 
+.btm {
+    position: relative;
+    top: 140px;
+    height: 10px;
+    width: 600px;
+    margin: 0 auto 0 auto;
+}
+
 button {
+    position: relative;
+    left: 50px;
+    top: -20px;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 0 0 0 20px;
-    width: 150px;
-    padding: 10px;
+    margin: 20px 0 0 0;
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
     background: white;
 }
 button:active {
     background: whitesmoke;
+}
+.rst {
+    width: 100px;
+}
+
+.rst:hover{
+    background: red;
 }
